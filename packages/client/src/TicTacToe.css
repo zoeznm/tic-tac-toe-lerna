@@ -1,8 +1,28 @@
 /* src/TicTacToe.css */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Jura", serif;
+}
+h2 {
+  font-weight: 350;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .game {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .board {
@@ -21,6 +41,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .square:hover {
@@ -29,4 +51,27 @@
 
 .status {
   margin-bottom: 10px;
+}
+.reset {
+  margin: 20px;
+}
+.reset {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  
+}
+.reset:before {
+  height: 0%;
+  width: 2px;
+}
+.reset:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }

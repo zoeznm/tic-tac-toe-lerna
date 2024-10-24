@@ -27,10 +27,10 @@ const TicTacToe = () => {
     : `Next player: ${isXNext ? "X" : "O"}`;
 
   return (
-    <div className="game">
+    <><h2>Play TicTacToe</h2><div className="game">
       <div className="status">{status}</div>
       <div className="board">
-        <div className="board-row">
+        <div className="c">
           {renderSquare(0)}
           {renderSquare(1)}
           {renderSquare(2)}
@@ -46,8 +46,8 @@ const TicTacToe = () => {
           {renderSquare(8)}
         </div>
       </div>
-      <button onClick={() => setBoard(Array(9).fill(null))}>Reset Game</button>
-    </div>
+      <button className="reset" onClick={() => setBoard(Array(9).fill(null))}>Reset Game</button>
+    </div></>
   );
 };
 
