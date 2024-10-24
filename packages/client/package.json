@@ -1,0 +1,45 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zoeznm <bomikim046@gmail.com>",
+  "homepage": "https://localhost:3000",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeznm/tic-tac-toe-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/client.test.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "bugs": {
+    "url": "https://github.com/zoeznm/tic-tac-toe-lerna/issues"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

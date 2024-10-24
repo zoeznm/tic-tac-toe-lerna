@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zoeznm <bomikim046@gmail.com>",
+  "homepage": "https://github.com/zoeznm/tic-tac-toe-lerna#readme",
+  "license": "ISC",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeznm/tic-tac-toe-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/server.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zoeznm/tic-tac-toe-lerna/issues"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
